@@ -9,6 +9,7 @@ const App = () => {
       {/* Do not remove the main div */}
       <main>
        <div>
+        <h3>Index</h3>
         <Switch>
           <Route exact path="/" component={Layout} />
           <Route path="/women" component={Women} />

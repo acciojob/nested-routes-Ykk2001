@@ -13,9 +13,6 @@ export default function Layout() {
           </li>
         </ul>
       </nav>
-      <div>
-       Index
-      </div>
       
     </div>
   );
