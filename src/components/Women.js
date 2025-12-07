@@ -11,15 +11,16 @@ export default function Women() {
   return (
     <div>
       <h2>Women Items:</h2>
-
-      <ul>
+     <nav>
+     <ul>
         {items.map((item, index) => (
           <li key={index}>
             <Link to={`${url}/${item}`}>{item}</Link>
           </li>
         ))}
       </ul>
-
+     </nav>
+      
      <Route path={`${path}/:itemName`} component={Category}/>
     </div>
   );
