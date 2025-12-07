@@ -1,5 +1,5 @@
 import React from 'react'
-import {useParams} from 'react-router-dom';
+import {useParams,Link} from 'react-router-dom';
 
 
 export default function Category() {
@@ -10,6 +10,7 @@ export default function Category() {
   return (
     <div>
        <h2>{item}</h2>
+        <Link to="/women">Back</Link>
     </div>
   )
 }
